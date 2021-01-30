@@ -1,0 +1,209 @@
+
+*{padding:0;margin:0;}
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+		font-size:12px;
+}
+
+.label-container{
+	position:fixed;
+	bottom:48px;
+	right:105px;
+	display:table;
+	visibility: hidden;
+}
+
+.label-text{
+	color:#FFF;
+	background:rgba(51,51,51,0.5);
+	display:table-cell;
+	vertical-align:middle;
+	padding:10px;
+	border-radius:3px;
+}
+
+.button-float-lp12 {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    fill: #fff;
+}
+
+.label-arrow{
+	display:table-cell;
+	vertical-align:middle;
+	color:#333;
+	opacity:0.5;
+}
+
+.float{
+	    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #FF0000;
+    color: #FFF;
+    border-radius: 100%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	font-size:24px;
+	margin-top:18px;
+}
+
+a.float + div.label-container {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+}
+
+a.float:hover + div.label-container{
+  visibility: visible;
+  opacity: 1;
+}
+.wi100 {
+    width: 100%;
+}
+.list-group-flush .list-group-item {
+    border-right-width: 0;
+    border-left-width: 0;
+    border-radius: 0;
+    text-align: right;
+}
+.list-group-item + .list-group-item {
+    border-top-width: 0;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    background-color: #fff;
+	border: 1px solid rgba(0,0,0,.125);
+}
+.bd-example > .list-group {
+    max-width: 400px;
+}
+.list-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.b2 {
+    background: url(../img/b2.jpg) center top no-repeat #0a3a66;
+}
+.b2 .zag {
+    height: 528px;
+}
+.b2 h1 {
+    padding: 22px 0 20px;
+    font-size: 36px;
+    line-height: 58px;
+    color: #75b1f0;
+    text-transform: uppercase;
+}
+.b2 h2 {
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.b2 .best {
+    color: #fff;
+    font-family: 'Tajawal';
+    text-transform: uppercase;
+    width: 228px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 7px 0px 0 55px;
+    margin-top: 15px;
+    text-shadow: 1px 1px 1px #00000026;
+}
+.b2 .price {
+    color: #fff;
+    font-family:'Tajawal';
+    height: 90px;
+}
+.b2 .price .old {
+    float:left;
+    width: 190px;
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+}
+.b2 .price .old div {
+    font-family: 'Tajawal';
+    font-size: 40px;
+    line-height: 40px;
+    text-decoration: line-through;
+}
+.b2 .price .sale {
+    float: left;
+    width: 101px;
+    font-family: 'Tajawal';
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding-top: 2px;
+    text-shadow: 1px 1px 1px #00000026;
+}
+.b2 .price .sale div {
+    font-size: 34px;
+    line-height: 34px;
+}
+.b2 .price .new {
+    float:left;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+}
+.b2 .price .new div {
+    font-family: 'Tajawal';
+    font-size: 40px;
+    line-height: 40px;
+}
+.b2 .timer {
+    height: 165px;
+    font-family: 'Tajawal';
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+}
+.font-100 {
+    font-weight: 100;
+}
+.font-200 {
+    font-weight: 200;
+}
+.font-400 {
+	font-weight: 400;
+}
+.font-500 {
+    font-weight: 500;
+}
+.font-600 {
+    font-weight: 600;
+}
+.font-700{
+    font-weight: 700;
+}
+.font-800 {
+    font-weight: 800;
+}
+.font-900 {
+    font-weight: 900;
+}
+.spandh {
+    font-size: 20px;
+    margin-left: 8px;
+    font-weight: 600;
+    font-family: 'Tajawal', sans-serif;
+}
